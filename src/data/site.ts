@@ -54,7 +54,7 @@ export const siteConfig = {
   website: "www.triova-rent.com",
   phone: "06 98 71 95 22",
   phoneRaw: "33698719522",
-  email: "Anis42.dahi@gmail.com",
+  email: "triova.service@gmail.com",
   founders: ["Yasmine", "Imène", "Anis"],
   address: {
     city: "Saint-Étienne",
