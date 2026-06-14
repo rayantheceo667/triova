@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-triova-black: #0d0d0d;
+  --color-triova-dark: #141414;
+  --color-triova-card: #1a1a1a;
+  --color-triova-gold: #c9a962;
+  --color-triova-gold-light: #e8d5a3;
+  --color-triova-gold-dark: #9a7b3c;
+  --color-triova-magenta: #c026d3;
+  --color-triova-green: #22c55e;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+  --font-body: "Montserrat", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-triova-black text-white antialiased;
+    font-family: var(--font-body);
+  }
+
+  ::selection {
+    @apply bg-triova-gold/30 text-white;
+  }
+}
+
+@layer utilities {
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-triova-gold-light via-triova-gold to-triova-gold-dark bg-clip-text text-transparent;
+  }
+
+  .border-gradient-gold {
+    border-image: linear-gradient(
+        135deg,
+        var(--color-triova-gold-light),
+        var(--color-triova-gold-dark)
+      )
+      1;
+  }
+
+  .glow-gold {
+    box-shadow: 0 0 40px rgba(201, 169, 98, 0.15);
+  }
+}

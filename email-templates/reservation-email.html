@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nouvelle réservation TRIØVA</title>
+</head>
+<body style="margin:0;padding:0;background-color:#0d0d0d;font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;">
+
+  <!-- Wrapper -->
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#0d0d0d;">
+    <tr>
+      <td align="center" style="padding:40px 16px;">
+
+        <!-- Container -->
+        <table role="presentation" width="600" cellspacing="0" cellpadding="0" border="0" style="max-width:600px;width:100%;background-color:#141414;border:1px solid #2a2418;border-radius:4px;overflow:hidden;">
+
+          <!-- Header gold bar -->
+          <tr>
+            <td style="height:4px;background:linear-gradient(90deg,#9a7b3c,#e8d5a3,#c9a962,#9a7b3c);font-size:0;line-height:0;">&nbsp;</td>
+          </tr>
+
+          <!-- Logo & title -->
+          <tr>
+            <td align="center" style="padding:36px 32px 24px;">
+              <p style="margin:0 0 8px;font-size:11px;letter-spacing:4px;text-transform:uppercase;color:#c9a962;">Agence de Location</p>
+              <h1 style="margin:0;font-size:36px;font-weight:bold;letter-spacing:6px;color:#e8d5a3;font-family:Georgia,'Times New Roman',serif;">TRI&#216;VA</h1>
+              <p style="margin:12px 0 0;font-size:13px;font-style:italic;color:#888888;font-family:Georgia,'Times New Roman',serif;">L'exception, &agrave; chaque trajet</p>
+            </td>
+          </tr>
+
+          <!-- Badge -->
+          <tr>
+            <td align="center" style="padding:0 32px 28px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="background-color:#1a1608;border:1px solid #c9a962;padding:8px 20px;border-radius:2px;">
+                    <p style="margin:0;font-size:11px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#c9a962;">&#9670; Nouvelle demande de location</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Vehicle highlight -->
+          <tr>
+            <td style="padding:0 32px 24px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#1a1a1a;border:1px solid #2a2418;border-radius:4px;">
+                <tr>
+                  <td style="padding:20px 24px;">
+                    <p style="margin:0 0 4px;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#888888;">V&eacute;hicule demand&eacute;</p>
+                    <p style="margin:0;font-size:22px;font-weight:bold;color:#e8d5a3;font-family:Georgia,'Times New Roman',serif;">{{vehicle}}</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Details grid -->
+          <tr>
+            <td style="padding:0 32px 8px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <!-- Client -->
+                  <td width="48%" valign="top" style="padding-bottom:16px;">
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#1a1a1a;border:1px solid #222222;border-radius:4px;">
+                      <tr>
+                        <td style="padding:16px 18px;">
+                          <p style="margin:0 0 6px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#c9a962;">&#128100; Client</p>
+                          <p style="margin:0;font-size:15px;font-weight:bold;color:#ffffff;">{{from_name}}</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                  <td width="4%">&nbsp;</td>
+                  <!-- Phone -->
+                  <td width="48%" valign="top" style="padding-bottom:16px;">
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#1a1a1a;border:1px solid #222222;border-radius:4px;">
+                      <tr>
+                        <td style="padding:16px 18px;">
+                          <p style="margin:0 0 6px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#c9a962;">&#128222; T&eacute;l&eacute;phone</p>
+                          <p style="margin:0;font-size:15px;font-weight:bold;color:#ffffff;">{{from_phone}}</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Dates -->
+          <tr>
+            <td style="padding:0 32px 24px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#1a1a1a;border:1px solid #222222;border-radius:4px;">
+                <tr>
+                  <td style="padding:18px 24px;">
+                    <p style="margin:0 0 10px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#c9a962;">&#128197; P&eacute;riode de location</p>
+                    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <td width="45%" style="padding:10px 14px;background-color:#0d0d0d;border:1px solid #2a2418;border-radius:3px;">
+                          <p style="margin:0 0 2px;font-size:9px;text-transform:uppercase;color:#666666;">D&eacute;but</p>
+                          <p style="margin:0;font-size:14px;font-weight:bold;color:#ffffff;">{{start_date}}</p>
+                        </td>
+                        <td width="10%" align="center" style="font-size:18px;color:#c9a962;">&rarr;</td>
+                        <td width="45%" style="padding:10px 14px;background-color:#0d0d0d;border:1px solid #2a2418;border-radius:3px;">
+                          <p style="margin:0 0 2px;font-size:9px;text-transform:uppercase;color:#666666;">Fin</p>
+                          <p style="margin:0;font-size:14px;font-weight:bold;color:#ffffff;">{{end_date}}</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Message -->
+          <tr>
+            <td style="padding:0 32px 32px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-color:#1a1a1a;border:1px solid #222222;border-left:3px solid #c9a962;border-radius:4px;">
+                <tr>
+                  <td style="padding:18px 24px;">
+                    <p style="margin:0 0 8px;font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:#c9a962;">&#128172; Message du client</p>
+                    <p style="margin:0;font-size:14px;line-height:1.6;color:#cccccc;font-style:italic;">{{message}}</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- CTA -->
+          <tr>
+            <td align="center" style="padding:0 32px 32px;">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="background-color:#c9a962;border-radius:3px;">
+                    <a href="tel:{{from_phone}}" style="display:inline-block;padding:14px 32px;font-size:12px;font-weight:bold;letter-spacing:2px;text-transform:uppercase;color:#0d0d0d;text-decoration:none;">Rappeler le client</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td style="padding:24px 32px;background-color:#0d0d0d;border-top:1px solid #2a2418;">
+              <p style="margin:0 0 6px;font-size:11px;color:#666666;text-align:center;">Cet e-mail a &eacute;t&eacute; g&eacute;n&eacute;r&eacute; automatiquement depuis le site TRI&#216;VA</p>
+              <p style="margin:0;font-size:11px;color:#c9a962;text-align:center;letter-spacing:1px;">www.triova-rent.com &nbsp;&bull;&nbsp; 06 98 71 95 22</p>
+            </td>
+          </tr>
+
+        </table>
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
