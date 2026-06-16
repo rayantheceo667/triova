@@ -65,7 +65,7 @@ export const siteConfig = {
     coordinates: { lat: 45.4397, lng: 4.3872 },
   },
   availability: {
-    hours: "Lun–Dim : 8h – 20h",
+    hours: "Lun–Dim : 10h – 18h",
     note: "Sur rendez-vous",
   },
   guarantees: [
