@@ -55,7 +55,6 @@ export const siteConfig = {
   phone: "06 98 71 95 22",
   phoneRaw: "33698719522",
   email: "triova.service@gmail.com",
-  founders: ["Yasmine", "Imène", "Anis"],
   address: {
     city: "Saint-Étienne",
     department: "Loire (42), France",

@@ -22,7 +22,7 @@ export default function About() {
                 IAY
               </p>
               <p className="mt-1 text-xs uppercase tracking-[0.3em] text-white/60">
-                {siteConfig.founders.join(" • ")}
+                
               </p>
             </div>
           </div>
